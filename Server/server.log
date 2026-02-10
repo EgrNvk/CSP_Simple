@@ -1,0 +1,15 @@
+2026-02-10 19:52:29,383 | INFO | Server started
+2026-02-10 19:52:57,049 | INFO | Client requested exit
+2026-02-10 19:52:57,050 | INFO | Server closed
+2026-02-10 19:55:31,198 | INFO | Server started
+2026-02-10 19:55:48,318 | INFO | Client requested exit
+2026-02-10 19:55:48,318 | INFO | Server closed
+2026-02-10 20:01:25,775 | INFO | Server started
+2026-02-10 20:01:30,340 | INFO | Client connected by ('127.0.0.1', 60925)
+2026-02-10 20:01:36,015 | INFO | Client msg: 2+2
+2026-02-10 20:01:36,016 | INFO | Client sent 4
+2026-02-10 20:01:43,260 | INFO | Client msg: 100/10
+2026-02-10 20:01:43,260 | INFO | Client sent 10.0
+2026-02-10 20:01:47,011 | INFO | Client msg: exit
+2026-02-10 20:01:47,011 | INFO | Client requested exit
+2026-02-10 20:01:47,097 | INFO | Server closed
