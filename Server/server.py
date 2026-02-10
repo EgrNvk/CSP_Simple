@@ -11,13 +11,18 @@ print("Server start")
 conn, addr = server.accept()
 print("Client connected by", addr)
 
-data = conn.recv(1024)
-msg = data.decode()
-print("Client msg:", msg)
+while True:
+    data = conn.recv(1024)
+    msg = data.decode()
+    print("Client msg:", msg)
 
-result = eval(msg)
-conn.send(str(result).encode())
-print("Client sent",result)
+    if msg == "exit":
+        break
+
+    result = eval(msg)
+    conn.send(str(result).encode())
+    print("Client sent",result)
+
 
 conn.close()
 server.close()
